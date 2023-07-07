@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         botButton.innerHTML = bot;
         botPanel.appendChild(botButton);
         botButton.addEventListener('click', () => {
-            window.location.href = `chat.html?bot=` + bot;
+            window.location.href = `chat.html?bot=${botButton.innerHTML}`;
         });
     }
 });

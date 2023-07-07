@@ -1,5 +1,7 @@
 const promptField = document.getElementById('promptField');
 const promptButton = document.getElementById('promptButton');
+const clearButton = document.getElementById('clearButton');
+const backButton = document.getElementById('backButton');
 const botTitle = document.getElementById('botTitle');
 const chatPanel = document.getElementById('chatPanel');
 const bot = (new URLSearchParams(window.location.search)).get('bot');
@@ -20,4 +22,12 @@ promptButton.addEventListener('click', async () => {
     const botMsg = document.createElement('p');
     botMsg.innerHTML = `<b>${bot}: </b>${result}`;
     chatPanel.appendChild(botMsg);
+})
+
+clearButton.addEventListener('click', () => {
+    chatPanel.innerHTML = '';
+})
+
+backButton.addEventListener('click', () => {
+    window.location.href = 'index.html';
 })
