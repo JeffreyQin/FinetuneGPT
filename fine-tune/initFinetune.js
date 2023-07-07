@@ -19,7 +19,7 @@ async function uploadFile() {
 async function initFinetune() {
     try {
         const response = await openai.createFineTune({
-            training_file: uploadFile(),
+            training_file: await uploadFile(),
             model: 'davinci'
         });
         console.log(response);

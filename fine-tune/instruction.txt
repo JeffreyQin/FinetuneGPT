@@ -8,6 +8,6 @@ To fine-tune a new model, follow the steps below
 
 4. Run `node ./fine-tune/initFinetune.js` in terminal.
 
-5. Check your fine-tune results by running `node ./fine-tune/getResult.js` in terminal. Fine-tune is complete when 'model' is not null.
+5. Check your fine-tune results by running `node ./fine-tune/getResult.js` in terminal. Fine-tune is complete when 'fine-tuned-model' is non-null.
 
 6. Update bots.json with the name and id of your new fine-tune.
