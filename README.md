@@ -7,9 +7,10 @@ This project is a mini desktop app to interact with some GPT Davinci models I ha
 
 ## How to use
 
-1. Clone the repository 
-2. Install Node.js and run "npm install" in the console.
-
+1. Clone the repository.
+2. Install Node.js and run "npm install", "touch .env" in the console.
+3. Type in "OPENAI_API_KEY = {{your api key}}" in .env
+4. Run "npm run start" in the console.
 
 ## Note
 
