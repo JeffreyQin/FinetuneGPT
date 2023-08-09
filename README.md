@@ -3,7 +3,7 @@
 This project is a mini desktop app to interact with some GPT Davinci models I have fine-tuned (API key required). Relevant code and datasets for the fine-tunes are included.
 
 - Frontend: HTML, JavaScript (Electron.js)
-- Backend: JavaScript (Node.js, Express.js, OpenAI API), Python
+- Backend: JavaScript (Node.js, Express.js, OpenAI API (GPT-3)), Python
 
 ## How to use
 
